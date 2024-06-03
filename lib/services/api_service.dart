@@ -1,7 +1,7 @@
 import 'dart:convert';
 
-import 'package:http/http.dart' as http;
-import 'package:toonflix/models/webtoon_model.dart'; // 패키지에 네임스페이스 지정
+import 'package:http/http.dart' as http; // 패키지에 네임스페이스 지정
+import 'package:toonflix/models/webtoon_model.dart';
 
 class ApiService {
   static const String baseUrl =
