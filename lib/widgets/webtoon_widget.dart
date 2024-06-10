@@ -53,14 +53,15 @@ class Webtoon extends StatelessWidget {
               width: 250,
               clipBehavior: Clip.hardEdge,
               decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(15),
-                  boxShadow: const [
-                    BoxShadow(
-                      blurRadius: 15,
-                      offset: Offset(10, 10),
-                      color: Color.fromRGBO(0, 0, 0, 0.5),
-                    )
-                  ]),
+                borderRadius: BorderRadius.circular(15),
+                boxShadow: const [
+                  BoxShadow(
+                    blurRadius: 15,
+                    offset: Offset(10, 10),
+                    color: Color.fromRGBO(0, 0, 0, 0.5),
+                  )
+                ],
+              ),
               child: Image.network(
                 thumb,
                 headers: const {'Referer': 'http://comic.naver.com'},
