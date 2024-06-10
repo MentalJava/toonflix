@@ -42,7 +42,7 @@ class Webtoon extends StatelessWidget {
               thumb: thumb,
               id: id,
             ),
-          ),
+          ), // 안드로이드는 PageRouteBuilder로 원 강의에선 MaterialPageRoute 사용
         );
       },
       child: Column(
